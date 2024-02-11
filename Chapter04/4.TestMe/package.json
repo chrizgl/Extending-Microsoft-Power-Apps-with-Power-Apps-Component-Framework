@@ -13,7 +13,17 @@
     "@types/powerapps-component-framework": "^1.2.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.1",
     "pcf-scripts": "^1",
-    "pcf-start": "^1"
+    "pcf-start": "^1",
+    "typescript": "^4.9.5"
+  },
+  "rules": {
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [0, "error", "windows"]
   }
 }
